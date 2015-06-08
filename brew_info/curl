@@ -1,0 +1,33 @@
+curl: stable 7.42.1 (bottled)
+Get a file from an HTTP, HTTPS or FTP server
+http://curl.haxx.se/
+
+This formula is keg-only.
+Mac OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+/usr/local/Cellar/curl/7.42.1 (305 files, 2.9M)
+  Poured from bottle
+From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/curl.rb
+==> Dependencies
+Build: pkg-config ✘
+Optional: openssl ✔, libidn ✘, rtmpdump ✘, libssh2 ✘, c-ares ✘, libmetalink ✘, libressl ✘, nghttp2 ✘
+==> Options
+--with-c-ares
+	Build with C-Ares async DNS support
+--with-gssapi
+	Build with GSSAPI/Kerberos authentication support.
+--with-libidn
+	Build with support for Internationalized Domain Names
+--with-libmetalink
+	Build with libmetalink support.
+--with-libressl
+	Build with LibreSSL instead of Secure Transport or OpenSSL
+--with-libssh2
+	Build with scp and sftp support
+--with-nghttp2
+	Build with HTTP/2 support (requires OpenSSL or LibreSSL)
+--with-openssl
+	Build with OpenSSL instead of Secure Transport
+--with-rtmpdump
+	Build with RTMP support

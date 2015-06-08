@@ -1,0 +1,18 @@
+nodebrew: stable 0.8.1, HEAD
+Node.js version manager
+https://github.com/hokaccha/nodebrew
+/usr/local/Cellar/nodebrew/0.8.1 (7 files, 48K) *
+  Built from source
+From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/nodebrew.rb
+==> Caveats
+Add path:
+  export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+To use Homebrew's directories rather than ~/.nodebrew add to your profile:
+  export NODEBREW_ROOT=/usr/local/var/nodebrew
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completion has been installed to:
+  /usr/local/share/zsh/site-functions
